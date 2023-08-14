@@ -1,0 +1,209 @@
+html, body, div, h1, p {
+    margin: 0;
+    padding: 0;
+ 
+  }
+
+  @media (max-width: 720px) {
+     body {
+        overflow-x: hidden;
+    }
+}
+  
+  body {
+    height: 100%;
+    overflow-x: hidden;
+    
+  }
+
+nav{
+    margin: 2rem;
+    height: 12rem;
+    background-color: bisque;
+}
+
+@media (max-width: 720px) {
+  nav {
+    margin: 0;
+  }
+}
+
+.logo img{
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+.sim1 img{
+ margin-left: 22rem;
+
+}
+
+@media (max-width: 720px) {
+  .sim1 img {
+    margin-left: 0;
+  }
+}
+
+.sim2 img{
+    position: absolute;
+    left: 40%;
+    top: 2rem;
+    display: flex;
+}
+
+@media (max-width: 720px) {
+  .sim2 img {
+    left: 80%;
+  }
+}
+
+.simMeio img{
+    position: absolute;
+    left: 45%;
+    top: 4rem;
+    display: flex;
+}
+
+@media (max-width: 720px) {
+  .simMeio img {
+    visibility: hidden;
+  }
+}
+
+
+.infoDireita img{
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    display: flex;
+}
+
+@media (max-width: 720px) {
+  .infoDireita img {
+    visibility: hidden;
+  }
+}
+  
+  .imagem {
+    width: calc(100% - 10rem);
+    margin-top: 5px;
+  }
+
+  @media (max-width: 720px) {
+    .imagem  {
+      width: 100%;
+      margin-top: 1rem;
+    }
+  }
+
+  .content{
+    margin-left: 10rem;
+    margin-top: 0;
+    text-align: left;
+
+  }
+
+  @media (max-width: 720px) {
+    .content  {
+    margin-left: 0;
+    }
+  }
+
+    .container {
+      margin: 0 4REM;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    @media (max-width: 720px) {
+      .container  {
+      margin: 2rem;
+      }
+    }
+
+  h1, p {
+    margin: 1rem;
+  }
+
+  p{
+    color: rgb(161, 161, 161);
+  }
+
+  .hr1{
+    background: linear-gradient(45deg, #d61010, hsl(244, 100%, 50%));
+        width: 33%;
+        height: 4px; 
+        margin-left: 0;  
+  }
+ 
+  .container1 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media (max-width: 720px) {
+    .container1 {
+        flex-direction: column;   
+    }
+}
+
+  .image {
+    margin-top: 2rem;
+    width: 48%;
+  }
+
+  .hrEsquerta{
+    background: linear-gradient(45deg, hwb(244 66% 5%), rgb(97, 88, 216));
+        width: 50%; 
+        height: 4px; 
+        margin-left: 0;  
+  }
+
+  .hrDireita{
+    background: linear-gradient(45deg, rgb(174, 242, 168), #37cc32);
+        width: 50%; 
+        height: 4px; 
+        margin-left: 0;  
+  }
+
+  .fim img{
+    margin: 3rem;
+    height: 10rem;
+    background-color: bisque;
+}
+
+@media (max-width: 720px) {
+  .fim img {
+    margin: 0;  
+    width: 100%;
+    height: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.footer {
+  padding: 4PX;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+@media (max-width: 720px) {
+  .footer {
+    margin-top: 3rem;
+  }
+}
+
+.footer p, a{
+  margin: 0.2em 0;
+  color: hwb(0 35% 64%);
+}
+
+
+    
